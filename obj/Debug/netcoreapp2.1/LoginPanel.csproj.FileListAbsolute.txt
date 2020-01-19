@@ -1,0 +1,16 @@
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.deps.json
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.runtimeconfig.json
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.runtimeconfig.dev.json
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.pdb
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.Views.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.csprojAssemblyReference.cache
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.RazorAssemblyInfo.cache
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.RazorAssemblyInfo.cs
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.AssemblyInfoInputs.cache
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.AssemblyInfo.cs
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.RazorTargetAssemblyInfo.cache
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.pdb
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.csproj.CopyComplete
