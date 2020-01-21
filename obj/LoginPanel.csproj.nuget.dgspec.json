@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Kazu\\source\\repos\\Login-panel\\LoginPanel\\LoginPanel.csproj": {}
+    "D:\\Users\\Kazu\\source\\repos\\LoginPanel\\LoginPanel\\LoginPanel.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Kazu\\source\\repos\\Login-panel\\LoginPanel\\LoginPanel.csproj": {
+    "D:\\Users\\Kazu\\source\\repos\\LoginPanel\\LoginPanel\\LoginPanel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Kazu\\source\\repos\\Login-panel\\LoginPanel\\LoginPanel.csproj",
+        "projectUniqueName": "D:\\Users\\Kazu\\source\\repos\\LoginPanel\\LoginPanel\\LoginPanel.csproj",
         "projectName": "LoginPanel",
-        "projectPath": "D:\\Users\\Kazu\\source\\repos\\Login-panel\\LoginPanel\\LoginPanel.csproj",
+        "projectPath": "D:\\Users\\Kazu\\source\\repos\\LoginPanel\\LoginPanel\\LoginPanel.csproj",
         "packagesPath": "C:\\Users\\Kazu\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Kazu\\source\\repos\\Login-panel\\LoginPanel\\obj\\",
+        "outputPath": "D:\\Users\\Kazu\\source\\repos\\LoginPanel\\LoginPanel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -69,7 +69,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

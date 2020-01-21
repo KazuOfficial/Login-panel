@@ -1,32 +1,46 @@
-﻿<!DOCTYPE html>
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Login panel</title>
     <meta name="description" content="ASP.Net login panel test" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="login, panel, test, asp, net" />
     <meta name="author" content="Kazu" />
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <link rel="shortcut icon" type="image/png" href="~/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body style="display: none;">
     <script>
         $('body').fadeIn(1000);
     </script>
-    <center><div id="container" />
+    <center>
+        <div id="container" />
         <header>
             <div>Login panel</div>
-            <br />
+            
         </header>
         <content>
-            <div class="text">Username </div><br />
+            <div class="text">Username </div>
+            <br />
             <input id="Text1" type="text" class="box" />
             <br />
             <br />
-            <div class="text">Password</div> <br />
+            <div class="text">Password</div>
+            <br />
             <input id="Password1" type="password" class="box" />
+            <br />
+            <br />
+            <br />
+            <input id="Submit1" class="box" type="submit" value="Login" />
         </content>
-    </div></center>
+        </div>
+    </center>
 </body>
 </html>
