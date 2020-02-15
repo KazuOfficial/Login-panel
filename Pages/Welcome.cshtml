@@ -1,0 +1,19 @@
+﻿@page
+@model LoginPanel.WelcomeModel
+@{
+    ViewData["Title"] = "Welcome";
+}
+<meta charset="utf-8" />
+<title>Logged in</title>
+<link rel="shortcut icon" type="image/png" href="~/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="~/css/site.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body style="display: none;">
+    <script>
+        $('body').fadeIn(1000);
+    </script>
+    <center>
+        <h2>Welcome @Model.Username</h2>
+        <a asp-page="Index" asp-page-handler="Logout">Logout</a>
+    </center>
+</body>

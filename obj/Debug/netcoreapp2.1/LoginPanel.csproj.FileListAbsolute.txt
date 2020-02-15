@@ -27,3 +27,4 @@ D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPa
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPanel.Views.pdb
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.Views.pdb
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.csproj.CopyComplete
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\Razor\Pages\Welcome.cshtml.g.cs
