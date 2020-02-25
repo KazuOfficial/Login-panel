@@ -28,3 +28,9 @@ D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\LoginPa
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.Views.pdb
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\LoginPanel.csproj.CopyComplete
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\Razor\Pages\Welcome.cshtml.g.cs
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\MySql.Data.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Google.Protobuf.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\BouncyCastle.Crypto.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Ubiety.Dns.Core.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Renci.SshNet.dll
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\MySql.Data.xml

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Data.SqlClient;
 
 namespace LoginPanel.Pages
 {
@@ -11,6 +12,10 @@ namespace LoginPanel.Pages
         [BindProperty]
         public string Password { get; set; }
 
+        SqlConnection con = new SqlConnection();
+        SqlCommand com = new SqlCommand();
+        SqlDataReader dr;
+
         public string Message;
 
         public void OnGet()
@@ -19,19 +24,47 @@ namespace LoginPanel.Pages
         }
         public IActionResult onGetLogout()
         {
-            HttpContext.Session.Remove("username");
+            //HttpContext.Session.Remove("username");
             return Page();
         }
 
+        [HttpPost]
+        void connectionString()
+        {
+            con.ConnectionString = "data source=DESKTOP-UGKHTFI; database=Login; integrated security = SSPI;";
+        }
+
+        /*/     public IActionResult OnPost()
+             {
+                 if (Username.Equals("abc") && Password.Equals("def"))
+                 {
+                     HttpContext.Session.SetString("username", Username);
+                     return RedirectToPage("Welcome");
+                 }
+                 else
+                 {
+                     Message = "Invalid login or password";
+                     return Page();
+                 }
+             }**/
+
+        [HttpPost]
         public IActionResult OnPost()
         {
-            if (Username.Equals("abc") && Password.Equals("def"))
+            connectionString();
+            con.Open();
+            com.Connection = con;
+            com.CommandText = "select * from table_login where username='" + Username + "' and password='" + Password + "'";
+            dr = com.ExecuteReader();
+            if (dr.Read())
             {
+                con.Close();
                 HttpContext.Session.SetString("username", Username);
                 return RedirectToPage("Welcome");
             }
             else
             {
+                con.Close();
                 Message = "Invalid login or password";
                 return Page();
             }
