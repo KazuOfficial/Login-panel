@@ -1,11 +1,11 @@
 ﻿@page
-@model IndexModel
+@model LoginPanel.RegisterModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Register";
 }
 
 <meta charset="utf-8" />
-<title>Login panel - login</title>
+<title>Login panel - register</title>
 <meta name="description" content="ASP.Net login panel test" />
 <meta name="keywords" content="login, panel, register, test, asp, net" />
 <meta name="author" content="Kazu" />
@@ -14,17 +14,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body style="display: none;">
     <form method="post" asp-page="Index">
-        <script>
-            $('body').fadeIn(1000);
-        </script>
+        <script>$('body').fadeIn(1000);</script>
         <center>
             <div id="container">
                 <header>
-                    <div>Login panel</div>
+                    <div>Register panel</div>
                 </header>
                 <content>
-                    <div class="box" style="color: red;">@Model.Message</div>
+                    <br />
+                    <br />
                     <div class="text">Username </div>
+                    <br />
                     <br />
                     <input id="Text1" type="text" class="box" asp-for="@Model.Username" />
                     <br />
@@ -35,10 +35,10 @@
                     <br />
                     <br />
                     <br />
-                    <input id="Submit1" class="box" type="submit" value="Login" />
+                    <input id="Submit1" class="box" type="submit" value="Register" />
                     <br />
                     <br />
-                    <a class="box" href="Register">Don't have an account?</a>
+                    <a class="box" href="javascript:history.back()">Back to login panel</a>
                 </content>
             </div>
         </center>

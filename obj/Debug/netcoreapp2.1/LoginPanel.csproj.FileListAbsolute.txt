@@ -34,3 +34,4 @@ D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\BouncyC
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Ubiety.Dns.Core.dll
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\Renci.SshNet.dll
 D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\bin\Debug\netcoreapp2.1\MySql.Data.xml
+D:\Users\Kazu\source\repos\LoginPanel\LoginPanel\obj\Debug\netcoreapp2.1\Razor\Pages\Register.cshtml.g.cs

@@ -28,6 +28,7 @@
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.10",
+          "bootstrap": "4.4.1",
           "MySql.Data": "8.0.19.0"
         },
         "runtime": {
@@ -37,6 +38,13 @@
           "LoginPanel.dll": {}
         }
       },
+      "bootstrap/4.4.1": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.0"
+        }
+      },
+      "jQuery/3.0.0": {},
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
         "dependencies": {
@@ -207,6 +215,7 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "popper.js/1.16.0": {},
       "System.Composition/1.0.31": {
         "dependencies": {
           "System.Composition.AttributedModel": "1.0.31",
@@ -3516,6 +3525,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "bootstrap/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/QO9//Z8IYv8VmxTS3VzLaQC3wYnJDNbACnZHgLEeMABYjNuVPToLa6VDP2S4KwU3gUFiXglhQYZ00cddSK0IQ==",
+      "path": "bootstrap/4.4.1",
+      "hashPath": "bootstrap.4.4.1.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -3599,6 +3622,13 @@
       "sha512": "sha512-KuqDbPzjOWbUM6gPMbkvdhlQ10roQAoMM7mNZ8hcY/fH+9J4Zc+qT8dLWoNzGyr0OrxQVdZdbSjy/fxwoICgGg==",
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
+    },
+    "popper.js/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
+      "path": "popper.js/1.16.0",
+      "hashPath": "popper.js.1.16.0.nupkg.sha512"
     },
     "System.Composition/1.0.31": {
       "type": "package",

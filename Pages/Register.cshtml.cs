@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
+using Microsoft.AspNetCore.Http;
 
-namespace LoginPanel.Pages
+namespace LoginPanel
 {
-    public class IndexModel : PageModel
+    public class RegisterModel : PageModel
     {
         [BindProperty]
         public string Username { get; set; }
@@ -24,7 +28,7 @@ namespace LoginPanel.Pages
         }
         public IActionResult onGetLogout()
         {
-            HttpContext.Session.Remove("username");
+            //HttpContext.Session.Remove("username");
             return Page();
         }
 
