@@ -1,6 +1,4 @@
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
     background-color: #424040;
     user-select: none;
     -khtml-user-select: none;
@@ -20,17 +18,11 @@ body {
     }
 }
 
-#container { 
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-}
-
 header {
     font-family: 'Agency FB';
     font-size: 150px;
     margin-top: 15px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .box {

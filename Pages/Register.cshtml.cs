@@ -28,7 +28,7 @@ namespace LoginPanel
         }
         public IActionResult onGetLogout()
         {
-            //HttpContext.Session.Remove("username");
+            HttpContext.Session.Remove("username");
             return Page();
         }
 

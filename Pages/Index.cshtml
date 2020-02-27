@@ -5,6 +5,7 @@
 }
 
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <title>Login panel - login</title>
 <meta name="description" content="ASP.Net login panel test" />
 <meta name="keywords" content="login, panel, register, test, asp, net" />
@@ -36,29 +37,35 @@
             $('body').fadeIn(1000);
         </script>
         <center>
-            <div id="container">
+            <div class="container">
                 <header>
                     <div>Login panel</div>
                 </header>
-                <content>
-                    <div class="box" style="color: red;">@Model.Message</div>
-                    <div class="text">Username </div>
-                    <br />
-                    <input id="Text1" type="text" class="box" asp-for="@Model.Username" />
-                    <br />
-                    <br />
-                    <div class="text">Password</div>
-                    <br />
-                    <input id="Password1" type="password" class="box" asp-for="@Model.Password" />
-                    <br />
-                    <br />
-                    <br />
-                    <input id="Submit1" class="box" type="submit" value="Login" />
-                    <br />
-                    <br />
-                    <a class="box" href="Register">Don't have an account?</a>
-                </content>
+                <div class="row">
+                    <content>
+                        <div class="box col-sm-1" style="color: red;">@Model.Message</div>
+                        <div class="text col-sm-4">
+                            Username
+                            <br />
+                            <input id="Text1" type="text" class="box" asp-for="@Model.Username" />
+                        </div>
+                        <br />
+                        <br />
+                        <div class="text col-sm-4">
+                            Password
+                            <br />
+                            <input id="Password1" type="password" class="box" asp-for="@Model.Password" />
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <input id="Submit1" class="box" type="submit" value="Login" />
+                        <br />
+                        <br />
+                        <a class="box" href="Register">Don't have an account?</a>
+                    </content>
+                 </div>
             </div>
-        </center>
+</center>
     </form>
 </body>
