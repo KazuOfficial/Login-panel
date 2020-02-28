@@ -40,7 +40,7 @@ namespace LoginPanel.Pages
             connectionString();
             con.Open();
             com.Connection = con;
-            com.CommandText = "select * from table_login where username='" + Username + "' and password='" + Password + "'";
+            com.CommandText = "select * from table where username='" + Username + "' and password='" + Password + "'";
             dr = com.ExecuteReader();
             if (dr.Read())
             {

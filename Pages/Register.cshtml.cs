@@ -44,13 +44,13 @@ namespace LoginPanel
             connectionString();
             con.Open();
             com.Connection = con;
-            com.CommandText = "select * from table_login where username='" + Username + "' and password='" + Password + "'";
+            com.CommandText = "INSERT INTO table VALUES (NULL,'"+ Username + "','" + Password + "')";
             dr = com.ExecuteReader();
             if (dr.Read())
             {
                 con.Close();
                 HttpContext.Session.SetString("username", Username);
-                return RedirectToPage("Welcome");
+                return RedirectToPage("Index");
             }
             else
             {
