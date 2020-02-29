@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Data.SqlClient;
 using Microsoft.AspNetCore.Http;
+using System.Threading;
 
 namespace LoginPanel
 {
@@ -24,12 +25,7 @@ namespace LoginPanel
 
         public void OnGet()
         {
-
-        }
-        public IActionResult onGetLogout()
-        {
-            HttpContext.Session.Remove("username");
-            return Page();
+            
         }
 
         [HttpPost]
@@ -44,18 +40,17 @@ namespace LoginPanel
             connectionString();
             con.Open();
             com.Connection = con;
-            com.CommandText = "INSERT INTO table VALUES (NULL,'"+ Username + "','" + Password + "')";
+            com.CommandText = "INSERT INTO hari (username, password) VALUES ('"+ Username + "','" + Password + "')";
             dr = com.ExecuteReader();
             if (dr.Read())
             {
-                con.Close();
-                HttpContext.Session.SetString("username", Username);
-                return RedirectToPage("Index");
+                con.Close();;
+                return Page();
             }
             else
             {
                 con.Close();
-                Message = "Invalid login or password";
+                Message = "Account has been created!";
                 return Page();
             }
         }
