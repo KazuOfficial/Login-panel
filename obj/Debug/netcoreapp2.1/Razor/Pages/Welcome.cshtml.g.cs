@@ -65,7 +65,7 @@ using LoginPanel;
             WriteLiteral("<meta charset=\"utf-8\" />\n<title>Logged in</title>\n");
             EndContext();
             BeginContext(127, 66, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "00cddb2c05f448eb894bf10f9ebb2c25", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e08923aaaa5643998143355f440567e0", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -85,7 +85,7 @@ using LoginPanel;
             WriteLiteral("\n");
             EndContext();
             BeginContext(194, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "46154c3dee90415aa98054eb737b2168", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7c57a606ef3c4760bc4dec9698016715", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -105,7 +105,7 @@ using LoginPanel;
             WriteLiteral("\n<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n");
             EndContext();
             BeginContext(347, 257, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94b714f8404c4a60bb1d2e82155eed00", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb222c5f4e894eee88173d6eadc51d8e", async() => {
                 BeginContext(376, 121, true);
                 WriteLiteral("\n    <script>\n        $(\'body\').fadeIn(1000);\n    </script>\n    <center>\n        <h2 style=\"color: greenyellow;\">Welcome ");
                 EndContext();
@@ -120,7 +120,7 @@ using LoginPanel;
                 WriteLiteral("</h2>\n        ");
                 EndContext();
                 BeginContext(526, 56, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7fcf9fcf8d204384a4b412aa67c909b9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "27f580030fc34cf5a08570064e108d9c", async() => {
                     BeginContext(572, 6, true);
                     WriteLiteral("Logout");
                     EndContext();

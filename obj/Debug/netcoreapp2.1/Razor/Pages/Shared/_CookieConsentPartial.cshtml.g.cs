@@ -91,7 +91,7 @@ using Microsoft.AspNetCore.Http.Features;
                     ");
             EndContext();
             BeginContext(1208, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e1230d7d542a4c09b541a4ecd85b5f49", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9cd93b5c76bc43cab7dd535406b72f33", async() => {
                 BeginContext(1263, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();

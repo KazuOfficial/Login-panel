@@ -57,7 +57,8 @@
                     <input id="Submit1" class="box" type="submit" value="Register" />
                     <br />
                     <br />
-                    <a class="box" href="javascript:history.back()">Back to login panel</a>
+                    @Html.Hidden("RedirectTo", Url.Action("ActionName", "ControllerName"));
+                    <a class="box" href="Index">Back to login panel</a>
                 </content>
             </div>
         </center>
